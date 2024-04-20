@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos de Ordenamiento</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Algoritmos de Ordenamiento</h1>
+        <p>By: Isabella Llinás</p>
+    </header>
+    <div class="container">
+        <div class="algo-container">
+            <h2>Burbuja (Bubble Sort)</h2>
+            <button onclick="generateRandomNumbers('bubble')">Generar Aleatorios</button>
+            <button onclick="sortArray('bubble')">Ordenar</button>
+            <div id="bubble-result"></div>
+        </div>
+        <div class="algo-container">
+            <h2>Selección (Selection Sort)</h2>
+            <button onclick="generateRandomNumbers('selection')">Generar Aleatorios</button>
+            <button onclick="sortArray('selection')">Ordenar</button>
+            <div id="selection-result"></div>
+        </div>
+        <div class="algo-container">
+            <h2>Inserción (Insertion Sort)</h2>
+            <button onclick="generateRandomNumbers('insertion')">Generar Aleatorios</button>
+            <button onclick="sortArray('insertion')">Ordenar</button>
+            <div id="insertion-result"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
